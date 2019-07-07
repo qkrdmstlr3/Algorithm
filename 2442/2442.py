@@ -5,6 +5,6 @@
 """
 N = int(input())
 count = 1
-for i in range(N):
+for i in range(N):  # count = i*2+1
     print(' '*(N-i-1), '*'*count, sep='')
     count += 2
