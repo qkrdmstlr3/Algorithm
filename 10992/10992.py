@@ -1,7 +1,7 @@
 """
     Author : ParkEunsik
     Date   : 2019/07/09
-    url    : https://www.acmicpc.net/problem/10991
+    url    : https://www.acmicpc.net/problem/10992
 """
 N = int(input())
 
