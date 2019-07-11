@@ -1,8 +1,8 @@
 """
     Author : ParkEunsik
-    Date   : 2019/07/10
+    Date   : 2019/07/11
     url    : https://www.acmicpc.net/problem/9012
-    Correct percentage : 36.349%
+    Correct percentage : 40.252%
 """
 while True:
     try:
