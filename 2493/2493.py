@@ -1,7 +1,7 @@
 """
     Author : ParkEunsik
-    Date   : 2019/07/10
-    url    : https://www.acmicpc.net/problem/9012
+    Date   : 2019/07/11
+    url    : https://www.acmicpc.net/problem/2493
     Correct percentage : 36.349%
 """
 
