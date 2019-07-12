@@ -1,7 +1,7 @@
 """
     Author : ParkEunsik
     Date   : 2019/07/12
-    url    : https://www.acmicpc.net/problem/15552
+    url    : https://www.acmicpc.net/problem/4344
     소수점 자리 표시 : https://pyformat.info/#number_padding
 """
 
