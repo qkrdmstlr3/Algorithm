@@ -2,6 +2,7 @@
     Author : ParkEunsik
     Date   : 2019/07/13
     url    : https://www.acmicpc.net/problem/2941
+    개선해보기 if2개 줄이는거
 """
 import sys
 
