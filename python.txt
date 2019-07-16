@@ -1,0 +1,43 @@
+<파이썬 사용법>
+
+1. 다차원 리스트 정렬
+from operator import itemgetter
+list.sort(key=itemgetter(0, 1))
+: 2차원 리스트에서 0번째 인덱스를 첫 번째 정렬조건으로 넣고 1번째 인덱스를 두 번째 정렬조건으로 설정해서 정렬
+
+2. 순열과 조합
+import itertools
+itertools.combinations(list, 3)
+: list에서 3개를 꺼내는 것을 조합으로 새로운 리스트를 만듬
+: 순열 = permutations
+
+3. 아스키코드
+ord('A') : 문자를 아스키 값으로
+chr(54) : 아스키 값을 문자로
+
+4. 리스트
+list.append(data) : 리스트 끝에 data 추가
+list.insert(index, data) : 리스트 인덱스 자리에 data 추가
+list.sort(reverse = True) : 리스트 내림차순으로 정렬
+list.reverse() : 리스트 뒤집기
+
+5. 리스트 문자열 변환
+list = ''.join(list)
+:리스트를 합쳐서 문자열로 바꿈(ex)[1,2,3] > '123')
+
+6. 문자열 뒤집기
+list = ''.join(reversed(list))
+: 문자열 뒤집기
+
+7. 소수점 자리 출력
+'{:0.3f}'.format(data)
+: 데이터의 소수 셋째 자리 까지 출력
+
+8. 반대로 카운트
+for i in reversed(range(N))
+: 반대로 센다
+
+9. 입력
+import sys
+sys.stdin.readline()
+:효율적으로 입력받기
