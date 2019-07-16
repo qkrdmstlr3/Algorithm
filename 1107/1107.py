@@ -28,7 +28,7 @@ for i in range(N+1):  # 주어진 수 보다 작은 경우 계산
             flag = False
     if flag is False:
         break
-while True:  # 주어진 수 보다 큰 경우 계산
+while True:  # 주어진 수 보다 큰 경우 계산, mi를 최대 범위로 둬서 for문 돌려도 괜찮을듯
     n = str(N+cnt)
     flag = True
     for j in range(len(n)):  # N에 가장 가까운 수 찾으면 탈출
