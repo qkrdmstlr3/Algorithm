@@ -2,7 +2,7 @@
     Author : ParkEunsik
     Date   : 2019/07/16
     url    : https://www.acmicpc.net/problem/2751
-    10989코드를 개조함
+    10989코드를 개조함!!
 """
 
 import sys
