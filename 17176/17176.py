@@ -11,14 +11,15 @@ arr = list(map(int, sys.stdin.readline().split()))
 text = list(sys.stdin.readline())
 flag = True
 
-for i in range(len(text)):
-    if text[i] >= 'A' and text[i] <= 'Z' and ord(text[i])-64 not in arr:
+for i in range(len(arr)):
+    if arr[i] >= 1 and arr[i] <= 26 and chr(arr[i]+64) not in text:
         flag = False
         break
-    elif text[i] >= 'a' and text[i] <= 'z' and ord(text[i])-70 not in arr:
+    elif arr[i] >= 27 and arr[i] <= 52 and chr(arr[i]+70) not in text:
+        print(chr(arr[i]+70))
         flag = False
         break
-    elif text[i] == ' ' and 0 not in arr:
+    elif arr[i] == 0 and ' ' not in text:
         flag = False
         break
 if flag is True:
