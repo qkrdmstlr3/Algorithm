@@ -17,13 +17,15 @@ chr(54) : 아스키 값을 문자로
 
 4. 리스트
 list.append(data) : 리스트 끝에 data 추가
-list.insert(index, data) : 리스트 인덱스 자리에 data 추가
+list.insert(index, data) : 리스트 인덱스 자리에 data 추가 : 한칸씩 미는거라 오래걸림
 list.sort(reverse = True) : 리스트 내림차순으로 정렬
 list.reverse() : 리스트 뒤집기
 
 5. 리스트 문자열 변환
 list = ''.join(list)
 :리스트를 합쳐서 문자열로 바꿈(ex)[1,2,3] > '123')
+print(" ".join(map(str, i)))
+:리스트에 있는 것을 문자열로 출력(ex)[1,2,3] > 1 2 3)
 
 6. 문자열 뒤집기
 list = ''.join(reversed(list))
@@ -41,3 +43,29 @@ for i in reversed(range(N))
 import sys
 sys.stdin.readline()
 :효율적으로 입력받기
+
+10. 최소 힙
+import heapq
+heap = []
+heapq.heappush(heap, data) : heap에 데이터 추가
+heapq.heappush(heap, (우선순위, 값)) : 이거 이용해서 heap의 조건을 바꿀 수 있다!!! : ex) 11286
+heapq.heappop(heap) : heap에서 최소값 제거
+
+11. 리스트 튜플 변환
+tuple(list) : 리스트 > 튜플
+list(tuple) : 튜플 > 리스트
+
+12. 예외 처리
+try:
+except (에러문구):
+
+13. 리스트 삭제
+del a[0] : 0번째 인덱스 삭제
+a.remove(num) : list에서 num을 삭제
+
+
+
+
+<알고리즘 분류>
+스택, 큐, 이분탐색, 트리, 수학, 브루트 포스, 정렬, 다이내믹p, 우선순위 큐(힙)
+
