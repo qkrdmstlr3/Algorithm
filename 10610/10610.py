@@ -3,7 +3,7 @@
     Date   : 2019/07/23
     url    : https://www.acmicpc.net/problem/10610
     correct percentage : 35.360%
-    모든 자리 숫자의 합이 3이고 0이 1개라도 있으면됨
+    모든 자리 숫자의 합이 3이고 0이 1개라도 있으면됨!!
 """
 
 import sys
