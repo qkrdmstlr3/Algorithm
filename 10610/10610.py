@@ -2,20 +2,20 @@
     Author : ParkEunsik
     Date   : 2019/07/23
     url    : https://www.acmicpc.net/problem/10610
+    correct percentage : 35.360%
+    모든 자리 숫자의 합이 3이고 0이 1개라도 있으면됨
 """
 
 import sys
 import itertools
 
-N = sys.stdin.readline()
-num, result = [], []
-for i in range(len(N)-1):
-    num.append(N[i])
-for i in itertools.permutations(num, len(num)):
-    if int(''.join(i)) % 30 == 0:
-        result.append(int(''.join(i)))
-if not result:
+N = list(sys.stdin.readline())
+N.pop()  # 개행문자 제거
+N = list(map(int, N))
+
+if sum(N) % 3 != 0 or 0 not in N:
     print(-1)
 else:
-    result.sort()
-    print(result[-1])
+    N.sort(reverse=True)
+    N = list(map(str, N))
+    print(''.join(N))
