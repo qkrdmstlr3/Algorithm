@@ -1,14 +1,21 @@
 """
     Author : ParkEunsik
-    Date   : 2019/07/10
+    Date   : 2019/07/29
     url    : https://www.acmicpc.net/problem/10996
 """
-N = int(input())
 
-for i in range(2*N):
-    for j in range(N):
-        if (i & 1) == (j & 1):  # 짝수면 0이고 홀수면 1이 됨
-            print("*", end='')
-        else:
-            print(" ", end='')
-    print()
+import sys
+
+N = int(sys.stdin.readline())
+
+if N == 1:
+    print('*')
+else:
+    if N % 2 == 0:
+        for i in range(N):
+            print('* '*(N//2))
+            print(' *'*(N//2))
+    else:
+        for i in range(N):
+            print('* '*(N//2+1))
+            print(' *'*(N//2))
