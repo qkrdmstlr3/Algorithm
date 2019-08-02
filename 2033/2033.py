@@ -3,6 +3,7 @@
     Date   : 2019/08/02
     url    : https://www.acmicpc.net/problem/2033
     correct percentage : 38.129%
+    그냥 문자열로 바꿔보면 어떨까 해서 문자열로 해봄
 """
 
 import sys
