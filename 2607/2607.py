@@ -3,6 +3,7 @@
     Date   : 2019/08/26
     url    : https://www.acmicpc.net/problem/2607
     correct_percentage : 27.595%
+    걸린 시간 다른사람들보다 짧음
 """
 
 import sys
