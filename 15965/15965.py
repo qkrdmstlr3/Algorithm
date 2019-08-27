@@ -1,7 +1,7 @@
 """
     Author : ParkEunsik
     Date   : 2019/08/27
-    url    : https://www.acmicpc.net/problem/16170
+    url    : https://www.acmicpc.net/problem/15965
     진또배기 에라스토테네스의 체
 """
 
