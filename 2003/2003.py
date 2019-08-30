@@ -2,6 +2,7 @@
     Author : ParkEunsik
     Date   : 2019/08/30
     url    : https://www.acmicpc.net/problem/2003
+    합을 매번 계산하지 않도록 개선 해보기
 """
 
 import sys
