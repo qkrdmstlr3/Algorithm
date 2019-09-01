@@ -10,12 +10,16 @@ import sys
 
 jeminis = list(map(int, sys.stdin.readline().split()))
 girlibus = list(map(int, sys.stdin.readline().split()))
-j_count = 0
-g_count = 0
-flag = False
-for i in range(9):
-    j_count += jeminis[i]
-    if j_count > g_count:
-        flag = True
-    g_count += girlibus[i]
-print("Yes") if flag else print("No")
+if jeminis.count(0) == 9:
+    print("No")
+else:
+    count = 0
+    flag = False
+    for i in range(9):
+        count += jeminis[i]
+        temp2 = count
+        count -= girlibus[i]
+        if (temp2 > 0 and count <= 0):
+            flag = True
+
+    print("Yes") if flag else print("No")
