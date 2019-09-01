@@ -4,8 +4,10 @@
 from operator import itemgetter
 list.sort(key=itemgetter(0, 1))
 : 2차원 리스트에서 0번째 인덱스를 첫 번째 정렬조건으로 넣고 1번째 인덱스를 두 번째 정렬조건으로 설정해서 정렬
+list = sorted(list(map(int, sys.stdin.readline().split())))
+: 정렬된 리스트를 얻을 수 있음
 
-2. 순열과 조합
+2. 순열과 조합 > 잘쓰면 문제 굉장히 빨리 풀 수 있다
 import itertools
 itertools.combinations(list, 3)
 : list에서 3개를 꺼내는 것을 조합으로 새로운 리스트를 만듬
@@ -20,6 +22,7 @@ list.append(data) : 리스트 끝에 data 추가
 list.insert(index, data) : 리스트 인덱스 자리에 data 추가 : 한칸씩 미는거라 오래걸림
 list.sort(reverse = True) : 리스트 내림차순으로 정렬
 list.reverse() : 리스트 뒤집기
+list.count(element) : 원소 갯수를 세줌
 
 5. 리스트 문자열 변환
 list = ''.join(list)
@@ -34,6 +37,8 @@ list = ''.join(reversed(list))
 7. 소수점 자리 출력
 '{:0.3f}'.format(data)
 : 데이터의 소수 셋째 자리 까지 출력
+'{data:0.6f}'
+: 데이터를 소수 여섯 자리 까지 출력
 
 8. 반대로 카운트
 for i in reversed(range(N))
@@ -43,6 +48,8 @@ for i in reversed(range(N))
 import sys
 sys.stdin.readline()
 :효율적으로 입력받기
+sys.stdin.readline().rstrip()
+: 개행문자 제거해줌
 
 10. 최소 힙
 import heapq
@@ -50,6 +57,7 @@ heap = []
 heapq.heappush(heap, data) : heap에 데이터 추가
 heapq.heappush(heap, (우선순위, 값)) : 이거 이용해서 heap의 조건을 바꿀 수 있다!!! : ex) 11286
 heapq.heappop(heap) : heap에서 최소값 제거
+heapq.heapify(list) : 리스트를 힙으로 변환
 
 11. 리스트 튜플 변환
 tuple(list) : 리스트 > 튜플
@@ -63,9 +71,79 @@ except (에러문구):
 del a[0] : 0번째 인덱스 삭제
 a.remove(num) : list에서 num을 삭제
 
+14. 리스트 원소 0~N 넣기
+card = list(range(0, N+1))
 
+15. for i in list(map(int, sys.stdin.readline().split())):
 
+16. 수학
+import math
+math.ceil() : 올림함수
+round() : 반올림 함수
+round(num, -1) : 1의 자리에서 반올림
+
+17. 진수
+int(수, 16) : 16진수 > 10진수
+bin(수) : 10진수 > 2진수
+oct(수) : 10진수 > 8진수
+
+18. 최소 공배수, 최대 공약수, 기약분수 > 유리수 모듈
+from fractions import gcd
+gcd(a, b) : a와 b의 최대 공약수
+a*b//gcd(a, b) : a와 b의 최소 공배수
+
+from fractions import Fraction
+Fraction(a, b) : a와 b의 기약분수
+
+19. list안 list 한줄로
+list = [[] for i in range(int(sys.stdin.readline())+1)]
+
+20. 최대 재귀 횟수 늘려줌
+sys.setrecursionlimit(100000): 최대 재귀할수 있는 범위를 늘려줌(기본 1000)
+
+21. 최빈값(리스트에서 가장 많이 나온 값)
+from collections import Counter
+num=[0,0,1,1,1,2,2,3,3,3,3]
+cnt = Counter(num)
+mode = cnt.most_common(1)
+print(mode[0][0])
+
+22.zfill
+('3').zfill(3) : 003
+
+23. datetime사용
+import datetime
+datetime.date(2009, M, D).weekday() : 2009년 특정날의 요일 숫자 반환
+
+24. if 사용법
+print("Yes") if a > b else print("No")
+
+25. map함수
+map(func, b) : b에 있는 속성들을 func에 넣어서 나온 값을 반환
+
+26. 집합 : 중복된 것이 자동으로 들어가지 않는다 > 중복 체크하면서 넣을 때 유용
+set1 = ()
+set2 = ()
+print(set & set2) : 교집합
+print(set | set2) : 교집합
+print(set - set2) : 교집합
+
+27. timeit
+import timeit : 시간 잴 때 함수
+
+28. bfs, dfs
+bfs : deque > 주변으로 1단계씩 퍼져 나갈 때
+dfs : 재귀 > 덩어리를 찾을 때
+
+29. random
+import random
+random.choice(list) : list중에 하나를 선택해줌
+
+30. 문자열 부분 변경하기
+replace("찾을값", "바꿀값", [바꿀횟수])
+replaceAll= text.replace(",","")
+replace_t1 = text.replace(",", "",1)
 
 <알고리즘 분류>
-스택, 큐, 이분탐색, 트리, 수학, 브루트 포스, 정렬, 다이내믹p, 우선순위 큐(힙)
+스택, 큐, 이분탐색, 트리, 수학, 브루트 포스, 정렬, 다이내믹p, 우선순위 큐(힙), bfs, dfs
 
