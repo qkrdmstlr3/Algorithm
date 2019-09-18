@@ -2,6 +2,7 @@
     Author : ParkEunsik
     Date   : 2019/09/18
     url    : https://www.acmicpc.net/problem/1247
+    correct percentage : 40.157%
 """
 
 import sys
