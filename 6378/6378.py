@@ -3,6 +3,7 @@
     Date   : 2019/10/03
     url    : https://www.acmicpc.net/problem/6378
     correct percentage : 40.904%
+    finish
 """
 
 import sys
@@ -15,3 +16,4 @@ while True:
         num = map(int, num)
         num = list(str(sum(num)))
     print(int(num[0]))
+    
