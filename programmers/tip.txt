@@ -6,3 +6,4 @@ sort할 때
  - 값 < 0 a가 b보다 선행
 
  String.indefOf : 호출한 String 객체에서 주어진 값과 일치하는 첫 번째 인덱스를 반환
+ return count === 0 // boolean으로 바로 리턴 가능
