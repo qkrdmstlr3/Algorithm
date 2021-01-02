@@ -9,3 +9,8 @@ sort할 때
  return count === 0 // boolean으로 바로 리턴 가능
 
  순열 / 조합은 만들어서 써야댐
+
+ 최대공약수
+ function gcd(minNum, maxNum){
+  return (minNum % maxNum) === 0 ? maxNum : gcd(maxNum, minNum % maxNum);
+}
