@@ -1,0 +1,23 @@
+JAVA
+
+문자열 배열의 길이는 array.length()
+정수형 배열의 길이는 array.length
+
+배열안의 일부 요소를 추출할 때
+int[] array = Arrays.copyOfRange(orginalArray, startIndex, endIndex);
+
+배열 두개를 합칠 때
+int[] copiedArray = new int[arrayA.length + arrayB.length];
+System.arraycopy(arrayA, 0, copiedArray, 0, arrayA.length);
+System.arraycopy(arrayB, 0, copiedArray, arrayA.length, arrayB.length);
+
+문자열 자를 때는 split을 사용
+String s = "1,2,3,4,5";
+String arrays = s.split('.');
+
+set을 사용하고 싶을 때는 hashSet을 사용 (유일한 값 사용을 원할 때는 set을 사용하는 것이 좋음)
+https://coding-factory.tistory.com/554
+
+주어진 문자가 배열의 길이를 넘어가지는 않는지 주의할 것
+
+자료형 범위 조심 (int long / float double)
