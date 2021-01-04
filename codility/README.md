@@ -7,3 +7,5 @@
 [lesson 2-b](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/)
 
 [lesson 3-a](https://app.codility.com/demo/results/trainingAVAEB4-6MX/)
+
+[lesson 3-b](https://app.codility.com/demo/results/trainingU9TADQ-XFK/)
