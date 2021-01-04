@@ -9,3 +9,5 @@
 [lesson 3-a](https://app.codility.com/demo/results/trainingAVAEB4-6MX/)
 
 [lesson 3-b](https://app.codility.com/demo/results/trainingU9TADQ-XFK/)
+
+[lesson 3-c](https://app.codility.com/demo/results/trainingQ8CRYU-T8P/)
