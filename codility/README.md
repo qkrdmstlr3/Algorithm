@@ -21,3 +21,5 @@
 [lesson 4-b](https://app.codility.com/demo/results/trainingD8R3EZ-E4V/)
 
 [lesson 4-c](https://app.codility.com/demo/results/trainingMM7YBR-6PD/)
+
+[lesson 4-d](https://app.codility.com/demo/results/training99AKAE-Z4C/)
