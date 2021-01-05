@@ -11,3 +11,5 @@
 [lesson 3-b](https://app.codility.com/demo/results/trainingU9TADQ-XFK/)
 
 [lesson 3-c](https://app.codility.com/demo/results/trainingQ8CRYU-T8P/)
+
+[lesson 4-a](https://app.codility.com/demo/results/training79RQ66-5NQ/)
