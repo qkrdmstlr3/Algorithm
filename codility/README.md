@@ -31,3 +31,5 @@
 [lesson 5-d](https://app.codility.com/demo/results/trainingUZGK3V-PPN/)
 
 [lesson 6-a](https://app.codility.com/demo/results/trainingJPCCPB-JAQ/)
+
+[lesson 6-b](https://app.codility.com/demo/results/trainingJZ4AR2-DAA/)
