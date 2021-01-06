@@ -37,3 +37,5 @@
 [lesson 6-d](https://app.codility.com/demo/results/training2Z4VQZ-K2M/)
 
 [lesson 7-a](https://app.codility.com/demo/results/trainingG57GU6-B63/)
+
+[lesson 7-c](https://app.codility.com/demo/results/trainingD94MF2-2UK/)
