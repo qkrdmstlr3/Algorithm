@@ -33,3 +33,5 @@
 [lesson 6-a](https://app.codility.com/demo/results/trainingJPCCPB-JAQ/)
 
 [lesson 6-b](https://app.codility.com/demo/results/trainingJZ4AR2-DAA/)
+
+[lesson 6-d](https://app.codility.com/demo/results/training2Z4VQZ-K2M/)
